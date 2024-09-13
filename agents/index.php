@@ -85,15 +85,12 @@ function softDeleteAgentById($id, $conn) {
                             <div class="card">
                                 <div class="card-body">
                                    <div class="d-flex justify-content-end align-items-center">
-                                            <a href="../agents/create.php" class="my-2">
-                                                <button type="button" class="btn btn-primary btn-bordered waves-effect waves-light">
-                                                    <i class="bx bx-plus"></i> Add New
-                                                </button>
-                                    
-                                            </a>
+                                        <a href="<?=BASE_URL?>agents/create.php" class="my-2">
+                                            <button type="button" class="btn btn-primary btn-bordered waves-effect waves-light">
+                                                <i class="bx bx-plus"></i> Add New
+                                            </button>
+                                        </a>
                                     </div>
-
-
                                     <table id="basic-datatable" class="table dt-responsive nowrap w-100">
                                         <thead>
                                             <tr>
@@ -132,7 +129,7 @@ function softDeleteAgentById($id, $conn) {
                                                                 echo $status;
                                                             ?>
                                                         </td>
-                                                        <td><?php echo date('m-d-Y h:i A',strtotime(htmlspecialchars($row['created_at']))); ?></td>
+                                                        <td><?php echo date('d-m-Y h:i A',strtotime(htmlspecialchars($row['created_at']))); ?></td>
                                                         <td>
                                                             <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-success waves-effect waves-light">
                                                                 Edit</a>

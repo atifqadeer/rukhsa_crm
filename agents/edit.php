@@ -239,7 +239,7 @@
 
 
                                             </div>
-                                            <a href="/agents/index.php" class="btn btn-secondary">Back</a>
+                                            <a href="<?=BASE_URL?>agents/index.php" class="btn btn-secondary">Back</a>
                                             
                                             <button class="btn btn-primary" type="submit">Submit</button>
                                         </form>

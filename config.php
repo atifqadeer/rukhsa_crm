@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 define('ROOT_PATH', __DIR__);
-define('BASE_URL', 'https://localhost/crm.rukhsa.com/');
+define('BASE_URL', 'https://localhost/rukhsa_crm/');
 
 date_default_timezone_set('Asia/Dubai'); // Set Dubai Timezone
 

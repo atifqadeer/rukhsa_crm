@@ -101,7 +101,7 @@ function softDeleteAgentById($id, $conn) {
                                     </p>
                                 </div>
                                 <div>
-                                    <a href="/team_leads/create.php">
+                                    <a href="<?=BASE_URL?>team_leads/create.php">
                                         <button type="button" class="btn btn-primary btn-bordered waves-effect waves-light">
                                             <i class="bx bx-plus"></i> Add New
                                         </button>
@@ -109,79 +109,81 @@ function softDeleteAgentById($id, $conn) {
                                     </a>
                                 </div>
                             </div>
-
-
-                                    <table id="basic-datatable" class="table dt-responsive nowrap w-100">
-                                        <thead>
+                            <table id="basic-datatable" class="table dt-responsive nowrap w-100">
+                                <thead>
+                                    <tr>
+                                        <th>Sr.</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>Segment</th>
+                                        <th>Status</th>
+                                        <th>Created_at</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php 
+                                    if (mysqli_num_rows($result) > 0) {
+                                        $sr = 1; // Initialize the serial number
+                                        while ($row = mysqli_fetch_assoc($result)) { ?>
                                             <tr>
-                                                <th>Sr.</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Email</th>
-                                                <th>Phone</th>
-                                                <th>Status</th>
-                                                <th>Action</th>
+                                                <td><?php echo $sr++; ?></td> <!-- Serial number -->
+                                                <td><?php echo htmlspecialchars($row['first_name']); ?></td>
+                                                <td><?php echo htmlspecialchars($row['last_name']); ?></td>
+                                                <td><?php echo htmlspecialchars($row['email']); ?></td>
+                                                <td><?php echo htmlspecialchars($row['phone']); ?></td>
+                                                <td><?php echo htmlspecialchars($row['segment_type']); ?></td>
+                                                <td>
+                                                    <?php 
+                                                        if($row['status'] == 'active'){
+                                                            $status = '<span class="badge badge-outline-success rounded-pill">Active</span>';    
+                                                        }else{
+                                                            $status = '<span class="badge badge-outline-danger rounded-pill">Inactive</span>';    
+                                                        }
+                                                        echo $status;
+                                                    ?>
+                                                </td>
+                                                <td><?php echo date('d-m-Y h:i A',strtotime(htmlspecialchars($row['created_at']))); ?></td>
+                                                <td>
+                                                    <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-success waves-effect waves-light">Edit</a>
+                                                        <?php if ($row['status'] === 'inactive') { ?>
+                                                        <a href="#" 
+                                                            class="btn btn-primary waves-effect waves-light" 
+                                                            onclick="restoreAgent(<?php echo $row['id']; ?>); return false;">
+                                                            <i class="mdi mdi-restore"></i> Restore
+                                                        </a>
+                                                    <?php } else { ?>
+                                                        <a href="#" 
+                                                            class="btn btn-danger waves-effect waves-light" 
+                                                            onclick="confirmAndDelete(<?php echo $row['id']; ?>); return false;">
+                                                            <i class="mdi mdi-delete"></i> Delete
+                                                        </a>
+                                                    <?php } ?>
+                                                    
+                                                </td>
                                             </tr>
-                                        </thead>
-                                        <tbody>
-                                            <?php 
-                                            if (mysqli_num_rows($result) > 0) {
-                                                $sr = 1; // Initialize the serial number
-                                                while ($row = mysqli_fetch_assoc($result)) { ?>
-                                                    <tr>
-                                                        <td><?php echo $sr++; ?></td> <!-- Serial number -->
-                                                        <td><?php echo htmlspecialchars($row['first_name']); ?></td>
-                                                        <td><?php echo htmlspecialchars($row['last_name']); ?></td>
-                                                        <td><?php echo htmlspecialchars($row['email']); ?></td>
-                                                        <td><?php echo htmlspecialchars($row['phone']); ?></td>
-                                                        <td>
-                                                            <?php 
-                                                                if($row['status'] == 'active'){
-                                                                    $status = '<span class="badge badge-outline-success rounded-pill">Active</span>';    
-                                                                }else{
-                                                                    $status = '<span class="badge badge-outline-danger rounded-pill">Inactive</span>';    
-                                                                }
-                                                                echo $status;
-                                                            ?>
-                                                        </td>
-                                                        <td>
-                                                            <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-success waves-effect waves-light">Edit</a>
-                                                             <?php if ($row['status'] === 'inactive') { ?>
-                                                                <a href="#" 
-                                                                   class="btn btn-primary waves-effect waves-light" 
-                                                                   onclick="restoreAgent(<?php echo $row['id']; ?>); return false;">
-                                                                   <i class="mdi mdi-restore"></i> Restore
-                                                                </a>
-                                                            <?php } else { ?>
-                                                                <a href="#" 
-                                                                   class="btn btn-danger waves-effect waves-light" 
-                                                                   onclick="confirmAndDelete(<?php echo $row['id']; ?>); return false;">
-                                                                   <i class="mdi mdi-delete"></i> Delete
-                                                                </a>
-                                                            <?php } ?>
-                                                            
-                                                        </td>
-                                                    </tr>
-                                                <?php } 
-                                            } else { ?>
-                                                <tr>
-                                                    <td colspan="6" class="text-center">No Data Found</td>
-                                                </tr>
-                                            <?php } ?>
-                                        </tbody>
-                                    </table>
+                                        <?php } 
+                                    } else { ?>
+                                        <tr>
+                                            <td colspan="6" class="text-center">No Data Found</td>
+                                        </tr>
+                                    <?php } ?>
+                                </tbody>
+                            </table>
 
                                    
-                                </div> <!-- end card body-->
-                            </div> <!-- end card -->
-                        </div><!-- end col-->
-                    </div>
-                    <!-- end row-->
-                </div> <!-- container -->
-            </div> <!-- content -->
-        </div>
-        <!-- End Page content -->
+                            </div> <!-- end card body-->
+                        </div> <!-- end card -->
+                    </div><!-- end col-->
+                </div>
+                <!-- end row-->
+            </div> <!-- container -->
+        </div> <!-- content -->
     </div>
+    <!-- End Page content -->
+</div>
     <!-- END wrapper -->
 
 
