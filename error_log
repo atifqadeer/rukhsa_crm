@@ -1,0 +1,471 @@
+[29-Aug-2024 19:19:55 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 150
+[01-Sep-2024 14:20:26 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[01-Sep-2024 14:20:26 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[01-Sep-2024 14:20:26 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[01-Sep-2024 14:20:26 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[01-Sep-2024 14:21:31 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[01-Sep-2024 14:21:31 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[01-Sep-2024 14:21:31 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[01-Sep-2024 14:21:31 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[01-Sep-2024 17:16:30 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[01-Sep-2024 17:16:30 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[01-Sep-2024 17:16:30 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[01-Sep-2024 17:16:30 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[01-Sep-2024 17:16:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/admin_dashboard.php(39): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:37:29 UTC] PHP Warning:  Undefined array key "id" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 161
+[01-Sep-2024 17:37:29 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 161
+[01-Sep-2024 17:37:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:184
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(184): mysqli_stmt->bind_param('ssssi', 'Acton', 'Hogan', 'hapakoqaho', 'qubyqod@mailina...', '8465231', '')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 184
+[01-Sep-2024 17:37:57 UTC] PHP Warning:  Undefined array key "id" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 161
+[01-Sep-2024 17:37:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 161
+[01-Sep-2024 17:37:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:184
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(184): mysqli_stmt->bind_param('ssssi', 'Acton', 'Hogan', 'hapakoqaho', 'qubyqod@mailina...', '8465231', '')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 184
+[01-Sep-2024 17:38:06 UTC] PHP Warning:  Undefined array key "id" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 161
+[01-Sep-2024 17:38:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 161
+[01-Sep-2024 17:38:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:184
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(184): mysqli_stmt->bind_param('ssssi', 'Acton', 'Hogan', 'hapakoqaho', 'qubyqod@mailina...', '34432423', '')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 184
+[01-Sep-2024 17:38:33 UTC] PHP Warning:  Undefined array key "id" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 161
+[01-Sep-2024 17:38:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 161
+[01-Sep-2024 17:38:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:184
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(184): mysqli_stmt->bind_param('ssssi', 'Acton', 'Hogan', 'hapakoqaho', 'qubyqod@mailina...', '243243242', '')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 184
+[01-Sep-2024 17:43:51 UTC] PHP Warning:  Undefined array key "role" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 138
+[01-Sep-2024 17:43:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 138
+[01-Sep-2024 17:43:51 UTC] PHP Warning:  Undefined array key "id" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 139
+[01-Sep-2024 17:43:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 139
+[01-Sep-2024 17:44:49 UTC] PHP Warning:  Undefined array key "role" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 138
+[01-Sep-2024 17:44:49 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 138
+[01-Sep-2024 17:44:49 UTC] PHP Warning:  Undefined array key "id" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 139
+[01-Sep-2024 17:44:49 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 139
+[01-Sep-2024 17:45:32 UTC] PHP Warning:  Undefined array key "role" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 138
+[01-Sep-2024 17:45:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 138
+[01-Sep-2024 17:55:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:162
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(162): mysqli_stmt->bind_param('ssssi', 'Acton', 'Hogan', 'hapakoqaho', 'qubyqod@mailina...', '24234234', 'agent', '12')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 162
+[01-Sep-2024 17:56:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:162
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(162): mysqli_stmt->bind_param('ssssi', 'Acton', 'Hogan', 'hapakoqaho', 'qubyqod@mailina...', '35235234', 'agent', '12')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 162
+[01-Sep-2024 17:58:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:160
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(160): mysqli_stmt->bind_param('ssssi', 'Acton', 'Hogan', 'hapakoqaho', 'qubyqod@mailina...', '3452352345', 'agent', '12')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 160
+[01-Sep-2024 18:03:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:110
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(110): mysqli_stmt->bind_param('sssss', 'Trevor', 'Pollard', 'bowih', 'febyriv@mailina...', '+1 (976) 876-61...', '$2y$10$cVnrzSId...', 'agent')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 110
+[01-Sep-2024 19:34:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:443
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(443): mysqli_stmt->bind_param('sssssss', 'Georgia Molina')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 443
+[01-Sep-2024 19:36:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:443
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(443): mysqli_stmt->bind_param('sssssss', 'Veda George')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 443
+[01-Sep-2024 19:36:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:443
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(443): mysqli_stmt->bind_param('sssssss', 'Veda George')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 443
+[01-Sep-2024 20:15:10 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[01-Sep-2024 20:15:10 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[01-Sep-2024 20:15:10 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[01-Sep-2024 20:15:10 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[01-Sep-2024 20:19:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:482
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(482): mysqli_stmt->bind_param('ssssssi', 'Sierra Gilmor', '1')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 482
+[02-Sep-2024 11:54:57 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 11:54:57 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 11:54:57 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 11:54:57 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 12:25:41 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 12:25:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 12:25:41 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 12:25:41 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 12:26:13 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 12:26:13 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 12:26:13 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 12:26:13 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 12:26:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.orders' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php:16
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/search_order.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM o...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php on line 16
+[02-Sep-2024 12:26:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.orders' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php:16
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/search_order.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM o...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php on line 16
+[02-Sep-2024 12:26:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.orders' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php:16
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/search_order.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM o...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php on line 16
+[02-Sep-2024 12:26:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.orders' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php:16
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/search_order.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM o...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php on line 16
+[02-Sep-2024 12:26:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.orders' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php:16
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/search_order.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM o...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/search_order.php on line 16
+[02-Sep-2024 12:35:40 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 12:35:40 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 12:35:40 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 12:35:40 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 12:35:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:10
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/admin_dashboard.php(39): include()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 10
+[02-Sep-2024 12:36:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:10
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/admin_dashboard.php(39): include()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 10
+[02-Sep-2024 12:37:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:10
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/admin_dashboard.php(39): include()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 10
+[02-Sep-2024 12:37:37 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:10
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/admin_dashboard.php(39): include()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 10
+[02-Sep-2024 12:37:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:10
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/completed-orders.php(24): include()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 10
+[02-Sep-2024 12:37:44 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:10
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/completed-orders.php(24): include()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 10
+[02-Sep-2024 12:39:07 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:10
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/completed-orders.php(24): include()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 10
+[02-Sep-2024 12:39:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:10
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/admin_dashboard.php(39): include()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 10
+[02-Sep-2024 13:32:13 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 13:32:13 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 13:32:13 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 13:32:13 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 15:40:47 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 15:40:47 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 15:40:47 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 15:40:47 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 15:42:38 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 15:42:38 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 15:42:38 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 15:42:38 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 21:26:56 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 21:26:56 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[02-Sep-2024 21:26:56 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[02-Sep-2024 21:26:56 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[03-Sep-2024 13:56:39 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[03-Sep-2024 13:56:39 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[03-Sep-2024 13:56:39 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[03-Sep-2024 13:56:39 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[03-Sep-2024 20:35:27 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[03-Sep-2024 20:35:27 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[03-Sep-2024 20:35:27 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[03-Sep-2024 20:35:27 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[04-Sep-2024 04:52:40 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[04-Sep-2024 04:52:40 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[04-Sep-2024 04:52:40 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[04-Sep-2024 04:52:40 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[04-Sep-2024 06:19:40 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[04-Sep-2024 06:19:40 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[04-Sep-2024 06:19:40 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[04-Sep-2024 06:19:40 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[04-Sep-2024 06:28:32 UTC] PHP Fatal error:  Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:425
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(425): htmlspecialchars(Array, 3, 'UTF-8')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 425
+[04-Sep-2024 06:28:37 UTC] PHP Fatal error:  Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:425
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(425): htmlspecialchars(Array, 3, 'UTF-8')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 425
+[04-Sep-2024 06:37:08 UTC] PHP Fatal error:  Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:425
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(425): htmlspecialchars(Array, 3, 'UTF-8')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 425
+[04-Sep-2024 06:42:50 UTC] PHP Fatal error:  Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:425
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(425): htmlspecialchars(Array, 3, 'UTF-8')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 425
+[04-Sep-2024 06:55:08 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:492
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(492): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 492
+[04-Sep-2024 06:58:34 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:492
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(492): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 492
+[04-Sep-2024 07:11:44 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:492
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(492): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 492
+[04-Sep-2024 19:54:20 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[04-Sep-2024 19:54:20 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[04-Sep-2024 19:54:20 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[04-Sep-2024 19:54:20 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 11:48:18 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 11:48:18 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 11:48:18 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 11:48:18 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 16:32:35 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 16:32:35 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 16:32:35 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 16:32:35 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 20:06:12 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 20:06:12 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 20:06:12 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 20:06:12 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 20:06:18 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 20:06:18 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 20:06:18 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 20:06:18 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 20:49:28 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 20:49:28 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 20:49:28 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 20:49:28 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 21:40:20 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 21:40:20 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 21:40:20 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 21:40:20 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 22:25:25 UTC] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 22:25:25 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[05-Sep-2024 22:25:25 UTC] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 22:25:25 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[05-Sep-2024 22:38:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function now() in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 4
+[05-Sep-2024 22:39:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:111
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(111): mysqli_stmt->bind_param('sssssss', 'Maite', 'Park', 'vetolefid', 'bukehyka@mailin...', '+1 (728) 494-24...', '$2y$10$wh6ieL7K...', 'agent', '2024-09-05 22:3...', '2024-09-05 22:3...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 111
+[05-Sep-2024 22:40:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:112
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(112): mysqli_stmt->bind_param('sssssss', 'Shafira', 'Nixon', 'zudopa', 'sidyh@mailinato...', '+1 (995) 788-60...', '$2y$10$CrI2nAjj...', 'agent', '2024-09-05 22:4...', '2024-09-05 22:4...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 112
+[05-Sep-2024 22:40:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:112
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(112): mysqli_stmt->bind_param('sssssss', 'Shafira', 'Nixon', 'zudopa', 'sidyh@mailinato...', '+1 (995) 788-60...', '$2y$10$1o3voZeD...', 'agent', '2024-09-05 22:4...', '2024-09-05 22:4...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 112
+[06-Sep-2024 03:41:59 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 03:41:59 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 03:41:59 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 03:41:59 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 03:47:35 Asia/Dubai] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:168
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(168): mysqli_stmt->bind_param('ssssssi', 'Dominique', 'Todd', 'kygiqev', 'vogybyzuda@mail...', '+1 (113) 647-59...', 'agent', '2024-09-06 03:4...', '18')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 168
+[06-Sep-2024 04:41:28 Asia/Dubai] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:517
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(517): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 517
+[06-Sep-2024 04:43:23 Asia/Dubai] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:519
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(519): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 519
+[06-Sep-2024 04:46:11 Asia/Dubai] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:518
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(518): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 518
+[06-Sep-2024 04:47:16 Asia/Dubai] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:518
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(518): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 518
+[06-Sep-2024 15:32:17 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 15:32:17 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 15:32:17 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 15:32:17 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 18:43:55 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 18:43:55 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 18:43:55 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 18:43:55 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 18:44:48 Asia/Dubai] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:516
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(516): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 516
+[06-Sep-2024 19:11:57 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 19:11:57 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 19:11:57 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 19:11:57 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 22:32:27 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 22:32:27 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 22:32:27 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 22:32:27 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 22:33:14 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 22:33:14 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[06-Sep-2024 22:33:14 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[06-Sep-2024 22:33:14 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[07-Sep-2024 00:32:59 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[07-Sep-2024 00:32:59 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[07-Sep-2024 00:32:59 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[07-Sep-2024 00:32:59 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[10-Sep-2024 06:03:19 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[10-Sep-2024 06:03:19 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[10-Sep-2024 06:03:19 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[10-Sep-2024 06:03:19 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[10-Sep-2024 08:55:08 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[10-Sep-2024 08:55:08 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[10-Sep-2024 08:55:08 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[10-Sep-2024 08:55:08 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[10-Sep-2024 23:00:55 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[10-Sep-2024 23:00:55 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[10-Sep-2024 23:00:55 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[10-Sep-2024 23:00:55 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[11-Sep-2024 06:43:18 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[11-Sep-2024 06:43:18 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[11-Sep-2024 06:43:18 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[11-Sep-2024 06:43:18 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[11-Sep-2024 15:37:08 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[11-Sep-2024 15:37:08 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[11-Sep-2024 15:37:08 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[11-Sep-2024 15:37:08 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[11-Sep-2024 15:41:55 Asia/Dubai] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:130
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(130): basename(Array)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 130
+[11-Sep-2024 15:42:23 Asia/Dubai] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:130
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(130): basename(Array)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 130
+[11-Sep-2024 15:44:17 Asia/Dubai] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:130
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(130): basename(Array)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 130
+[11-Sep-2024 15:45:56 Asia/Dubai] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:130
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(130): basename(Array)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 130
+[11-Sep-2024 15:46:44 Asia/Dubai] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:130
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(130): basename(Array)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 130
+[11-Sep-2024 15:48:40 Asia/Dubai] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:131
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(131): basename(Array)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 131
+[11-Sep-2024 15:51:56 Asia/Dubai] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:131
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(131): basename(Array)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 131
+[11-Sep-2024 15:54:10 Asia/Dubai] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:133
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(133): basename(Array)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 133
+[11-Sep-2024 15:56:03 Asia/Dubai] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:133
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(133): basename(Array)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 133
+[11-Sep-2024 11:58:16 UTC] PHP Parse error:  syntax error, unexpected token "catch" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 173
+[11-Sep-2024 12:00:31 UTC] PHP Parse error:  syntax error, unexpected token "if", expecting "," or ";" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 129
+[11-Sep-2024 12:01:27 UTC] PHP Parse error:  syntax error, unexpected token "catch" in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 156
+[11-Sep-2024 16:19:28 Asia/Dubai] PHP Fatal error:  Uncaught Error: Call to undefined function uploadImage() in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 134
+[11-Sep-2024 16:22:13 Asia/Dubai] PHP Fatal error:  Uncaught Error: Call to undefined function uploadImages() in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 134
+[11-Sep-2024 16:23:46 Asia/Dubai] PHP Fatal error:  Uncaught Error: Call to undefined function uploadImage() in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 134
+[11-Sep-2024 17:13:46 Asia/Dubai] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:715
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(715): mysqli->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 715
+[11-Sep-2024 18:10:37 Asia/Dubai] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:549
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(549): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 549
+[11-Sep-2024 19:17:44 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[11-Sep-2024 19:17:44 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[11-Sep-2024 19:17:44 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[11-Sep-2024 19:17:44 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[12-Sep-2024 08:59:41 Asia/Dubai] PHP Warning:  Undefined variable $email in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[12-Sep-2024 08:59:41 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 12
+[12-Sep-2024 08:59:41 Asia/Dubai] PHP Warning:  Undefined variable $portal in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[12-Sep-2024 08:59:41 Asia/Dubai] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/login.php on line 13
+[12-Sep-2024 09:21:24 Asia/Dubai] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:211
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(211): mysqli_stmt->bind_param('sssssssi', 'Carolyn', 'Combs', 'mydutezor', 'pibisy@mailinat...', '+971 116 162 82...', NULL, NULL, 'FACEREOFF', '+971 556 ', '2024-09-12 09:2...', '47')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 211
+[12-Sep-2024 09:21:45 Asia/Dubai] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:211
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(211): mysqli_stmt->bind_param('sssssssi', 'Carolyn', 'Combs', 'mydutezor', 'pibisy@mailinat...', '+971 116 162 82...', NULL, NULL, 'FACEREOFF', '+971 556 ', '2024-09-12 09:2...', '47')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 211
+[12-Sep-2024 09:38:52 Asia/Dubai] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/rukhsa/public_html/crm.rukhsa.com/functions.php:211
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/functions.php(211): mysqli_stmt->bind_param('sssssssi', 'Hop', 'Buck', 'leqahe', 'fodu@mailinator...', '+971 191 266 71...', NULL, NULL, 'ODIOMODIR', '+971 828 ', '2024-09-12 09:3...', '47')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/functions.php on line 211

@@ -1,0 +1,10 @@
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(config.php): Failed to open stream: No such file or directory in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 9
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 9
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 10
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 10
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(sidebar.php): Failed to open stream: No such file or directory in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 53
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 53
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(topbar.php): Failed to open stream: No such file or directory in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 55
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(): Failed opening 'topbar.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 55
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 292
+[02-Sep-2024 22:04:14 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/rukhsa/public_html/crm.rukhsa.com/leads/create.php on line 292

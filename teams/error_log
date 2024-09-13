@@ -1,0 +1,581 @@
+[28-Aug-2024 10:38:46 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[28-Aug-2024 10:54:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'serinaibs'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 10:56:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'serinaibs'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 10:58:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'serinaibs'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 10:58:45 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'serina'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 11:02:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'serina'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 11:05:40 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'serina'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 11:07:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'serina'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 11:07:45 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'b-184451'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 11:10:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'b-184451'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 11:16:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'b-184451'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 11:18:05 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'b-184451'@'localhost' (using password: YES) in /home/rukhsa/public_html/crm.rukhsa.com/agents/create.php on line 35
+[28-Aug-2024 11:19:56 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[28-Aug-2024 11:42:36 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[28-Aug-2024 21:18:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:31
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(15): softDeleteAgentById('2', Object(mysqli))
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 31
+[28-Aug-2024 21:20:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:31
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(15): softDeleteAgentById('2', Object(mysqli))
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 31
+[28-Aug-2024 21:24:28 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 12
+[28-Aug-2024 21:33:21 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[28-Aug-2024 21:37:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:32
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(16): softDeleteAgentById('2', Object(mysqli))
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 32
+[28-Aug-2024 21:38:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:32
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(16): softDeleteAgentById('2', Object(mysqli))
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 32
+[28-Aug-2024 21:39:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:32
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(16): softDeleteAgentById('2', Object(mysqli))
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 32
+[28-Aug-2024 21:43:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:30
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(16): softDeleteAgentById('2', NULL)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 30
+[28-Aug-2024 21:46:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:30
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(16): softDeleteAgentById('2', NULL)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 30
+[28-Aug-2024 21:53:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:30
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(16): softDeleteAgentById('2', NULL)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 30
+[28-Aug-2024 22:02:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:30
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(16): softDeleteAgentById('2', NULL)
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 30
+[29-Aug-2024 06:08:31 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 167
+[29-Aug-2024 06:08:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 167
+[29-Aug-2024 06:08:59 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 165
+[29-Aug-2024 06:35:27 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[29-Aug-2024 07:17:28 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 2
+[29-Aug-2024 07:17:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php:1) in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 6
+[29-Aug-2024 07:17:34 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 2
+[29-Aug-2024 07:17:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php:1) in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 6
+[29-Aug-2024 07:22:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 2
+[29-Aug-2024 07:22:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php:1) in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 6
+[29-Aug-2024 07:22:28 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 2
+[29-Aug-2024 07:22:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php:1) in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 6
+[29-Aug-2024 07:28:35 UTC] PHP Recoverable fatal error:  Object of class mysqli_stmt could not be converted to string in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 25
+[29-Aug-2024 08:04:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 23
+[01-Sep-2024 14:37:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:38:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:40:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:42:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(78): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:45:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(78): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:47:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:51:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:53:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(80): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:54:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(84): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:54:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:55:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:56:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:57:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 14:58:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.agents' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php:22
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php(22): mysqli->prepare('SELECT agents.f...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 22
+[01-Sep-2024 15:00:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:00:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.agents' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php:22
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php(22): mysqli->prepare('SELECT agents.f...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 22
+[01-Sep-2024 15:02:10 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:51
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(51): mysqli_query(Object(mysqli), 'SELECT * FROM `...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 51
+[01-Sep-2024 15:03:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:03:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(93): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:03:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(93): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:05:05 UTC] PHP Warning:  Undefined variable $result in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 53
+[01-Sep-2024 15:05:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:06:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:06:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:07:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:07:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:08:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:08:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:08:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:08:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(91): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:09:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:11:08 UTC] PHP Parse error:  Unclosed '{' on line 187 in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 313
+[01-Sep-2024 15:11:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(83): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:13:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.agents' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:49
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(49): mysqli_query(Object(mysqli), 'SELECT * FROM `...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 49
+[01-Sep-2024 15:13:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.agents' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:49
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(49): mysqli_query(Object(mysqli), 'SELECT * FROM `...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 49
+[01-Sep-2024 15:14:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.agents' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:61
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(61): mysqli_query(Object(mysqli), 'SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 61
+[01-Sep-2024 15:15:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(85): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:15:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 15:15:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:16:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(74): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:17:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(76): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:18:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(76): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:19:01 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 42
+[01-Sep-2024 17:19:21 UTC] PHP Warning:  include(./config.php): Failed to open stream: No such file or directory in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 9
+[01-Sep-2024 17:19:21 UTC] PHP Warning:  include(): Failed opening './config.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 9
+[01-Sep-2024 17:19:21 UTC] PHP Warning:  Undefined variable $conn in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 42
+[01-Sep-2024 17:19:21 UTC] PHP Warning:  Undefined variable $conn in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 46
+[01-Sep-2024 17:19:21 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:46
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(46): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 46
+[01-Sep-2024 17:21:31 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 47
+[01-Sep-2024 17:22:07 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 50
+[01-Sep-2024 17:22:32 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 50
+[01-Sep-2024 17:22:49 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 61
+[01-Sep-2024 17:24:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:24:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:25:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:25:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:28:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:28:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(77): include('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:29:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:45
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/topbar.php(45): mysqli->prepare('SELECT name FRO...')
+#1 /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php(88): include_once('/home/rukhsa/pu...')
+#2 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 45
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:32:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:33:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.agents' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php:22
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php(22): mysqli->prepare('SELECT agents.f...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 22
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rukhsa_crm.agents' doesn't exist in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php:22
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php(22): mysqli->prepare('SELECT agents.f...')
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 22
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:34:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 17:37:19 UTC] PHP Warning:  Undefined variable $agentId in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 84
+[01-Sep-2024 17:37:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 120
+[01-Sep-2024 17:37:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 120
+[01-Sep-2024 17:38:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 120
+[01-Sep-2024 17:43:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 120
+[01-Sep-2024 17:44:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 120
+[01-Sep-2024 17:45:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 120
+[01-Sep-2024 17:50:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 120
+[01-Sep-2024 17:52:25 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 121
+[01-Sep-2024 17:55:00 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 121
+[01-Sep-2024 17:56:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 121
+[01-Sep-2024 17:57:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 121
+[01-Sep-2024 18:00:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 121
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:00:49 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 121
+[01-Sep-2024 18:01:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 121
+[01-Sep-2024 18:01:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:37 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 121
+[01-Sep-2024 18:01:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:01:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/edit.php on line 121
+[01-Sep-2024 18:02:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:02:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:05:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:05:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:05:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:05:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:05:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:06:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/agents/index.php on line 138
+[01-Sep-2024 18:08:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 18:08:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 18:08:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 18:08:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 18:08:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 18:14:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 18:14:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 18:14:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 18:14:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 18:14:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php on line 138
+[01-Sep-2024 20:16:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/rukhsa/public_html/crm.rukhsa.com/teams/edit.php on line 121
+[02-Sep-2024 12:39:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php:10
+Stack trace:
+#0 /home/rukhsa/public_html/crm.rukhsa.com/teams/index.php(73): include()
+#1 {main}
+  thrown in /home/rukhsa/public_html/crm.rukhsa.com/topbar.php on line 10
+[04-Sep-2024 05:36:14 UTC] PHP Parse error:  Unclosed '{' on line 66 in /home/rukhsa/public_html/crm.rukhsa.com/teams/create.php on line 152
+[06-Sep-2024 00:55:48 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rukhsa/public_html/crm.rukhsa.com/teams/create.php on line 129
+[06-Sep-2024 00:55:53 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rukhsa/public_html/crm.rukhsa.com/teams/create.php on line 129
+[06-Sep-2024 00:56:04 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rukhsa/public_html/crm.rukhsa.com/teams/create.php on line 130
+[06-Sep-2024 00:56:06 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rukhsa/public_html/crm.rukhsa.com/teams/create.php on line 130
+[06-Sep-2024 00:56:09 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rukhsa/public_html/crm.rukhsa.com/teams/create.php on line 130
